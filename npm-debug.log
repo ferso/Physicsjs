@@ -1,24 +1,40 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
-2 info using npm@2.7.4
-3 info using node@v0.12.2
-4 verbose stack Error: Invalid version: "1.0"
-4 verbose stack     at Object.module.exports.fixVersionField (/usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:190:13)
-4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:30:38
-4 verbose stack     at Array.forEach (native)
-4 verbose stack     at normalize (/usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:29:15)
-4 verbose stack     at final (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:368:33)
-4 verbose stack     at then (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:127:33)
-4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:317:48
-4 verbose stack     at evalmachine.<anonymous>:263:20
-4 verbose stack     at OpenReq.Req.done (/usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:141:5)
-4 verbose stack     at OpenReq.done (/usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:61:22)
-5 verbose cwd /Users/ferso/Sites/Game
-6 error Darwin 15.6.0
-7 error argv "node" "/usr/local/bin/npm" "start"
-8 error node v0.12.2
-9 error npm  v2.7.4
-10 error Invalid version: "1.0"
-11 error If you need help, you may report this error at:
-11 error     <https://github.com/npm/npm/issues>
-12 verbose exit [ 1, true ]
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info prestart GameApp@1.0.0
+6 info start GameApp@1.0.0
+7 verbose unsafe-perm in lifecycle true
+8 info GameApp@1.0.0 Failed to exec start script
+9 verbose stack Error: GameApp@1.0.0 start: `npm run dev `
+9 verbose stack Exit status 1
+9 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:217:16)
+9 verbose stack     at emitTwo (events.js:87:13)
+9 verbose stack     at EventEmitter.emit (events.js:172:7)
+9 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+9 verbose stack     at emitTwo (events.js:87:13)
+9 verbose stack     at ChildProcess.emit (events.js:172:7)
+9 verbose stack     at maybeClose (internal/child_process.js:827:16)
+9 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+10 verbose pkgid GameApp@1.0.0
+11 verbose cwd /Users/ferso/Sites/Physicsjs
+12 error Darwin 15.6.0
+13 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+14 error node v4.4.7
+15 error npm  v2.15.8
+16 error code ELIFECYCLE
+17 error GameApp@1.0.0 start: `npm run dev `
+17 error Exit status 1
+18 error Failed at the GameApp@1.0.0 start script 'npm run dev '.
+18 error This is most likely a problem with the GameApp package,
+18 error not with npm itself.
+18 error Tell the author that this fails on your system:
+18 error     npm run dev
+18 error You can get information on how to open an issue for this project with:
+18 error     npm bugs GameApp
+18 error Or if that isn't available, you can get their info via:
+18 error
+18 error     npm owner ls GameApp
+18 error There is likely additional logging output above.
+19 verbose exit [ 1, true ]

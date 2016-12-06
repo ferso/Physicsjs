@@ -1,7 +1,7 @@
 {
-  "name": "GameApp",
+  "name": "Physics",
   "version": "1.0.0",
-  "description": "FooStudio recruiment request",
+  "description": "Physics Lerning",
   "main": "webpack.config.js",
   "scripts": {
     "build-css"  : "node-sass --output-style compressed  --include-path scss public/assets/scss/styles.scss   public/assets/css/styles.css ",    
@@ -9,7 +9,7 @@
     "build"      : "npm run build-js  & npm run build-css ",
     "dev-css"    : "node-sass --watch  --include-path scss public/assets/scss/styles.scss   public/assets/css/styles.css ",
     "dev"        : "npm run build-js  & npm run dev-css ",
-    "start"      : "npm run dev && webpack-dev-server ."
+    "start"      : "npm run dev "
 
   },
   "author": "",
