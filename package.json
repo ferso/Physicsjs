@@ -9,7 +9,7 @@
     "build"      : "npm run build-js  & npm run build-css ",
     "dev-css"    : "node-sass --watch  --include-path scss public/assets/scss/styles.scss   public/assets/css/styles.css ",
     "dev"        : "npm run build-js  & npm run dev-css ",
-    "start"      : "npm run dev "
+    "start"      : "npm run dev"
 
   },
   "author": "",
