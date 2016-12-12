@@ -1,5 +1,5 @@
 
-export default class Lesson2 {
+export default class Lesson3 {
 	constructor() {
 
 	  this.loop   = null;
@@ -55,7 +55,7 @@ export default class Lesson2 {
 		// this.context.fillStyle = gradient;
 		// this.context.fillRect(0,0,700,500);
 
-		let gradient1 = this.context.createRadialGradient(330,250,5,350,250,100);
+		let gradient1 = this.context.createRadialGradient(330,250,5,350,250,50);
 		gradient1.addColorStop(0,'#ffffff');
 		gradient1.addColorStop(1,'#ff0000');
 		this.context.fillStyle = gradient1;

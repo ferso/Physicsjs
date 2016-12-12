@@ -1,3 +1,4 @@
+import Ball from './Ball';
 
 export default class Lesson2 {
 	constructor() {
@@ -108,10 +109,6 @@ export default class Lesson2 {
 			// wrap it around
 			x = -radius;
 		}
-
-	  // this.context.clearRect(0,0,this.canvas.width,this.canvas.height );
-	  // let Bubble = new Ball({context:this.context,x:this.x,y:this.y}).draw();	  
-
 
 	}
 

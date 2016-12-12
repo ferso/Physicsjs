@@ -1,7 +1,7 @@
 
 import Ball from './Ball';
 
-class Lesson1 {
+class Lesson4 {
 	constructor() {
 
 	  this.loop   = null;
@@ -75,7 +75,7 @@ class Lesson1 {
 		}
 
 	  this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
-	  let Bubble = new Ball({context:this.context,x:this.x,y:this.y}).draw().text(1);	  
+	  let Bubble = new Ball({context:this.context,x:this.x,y:this.y}).draw().text(1);
 
 
 	}
@@ -84,4 +84,4 @@ class Lesson1 {
 }
 
 
-export default Lesson1;
+export default Lesson4;
